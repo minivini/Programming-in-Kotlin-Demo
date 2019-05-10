@@ -33,4 +33,27 @@ fun main(args: Array<String>) {
     nullableName = "Sam"
     length = nullableName?.length ?: -1
     println(length)
+
+
+    // Kotlin Basics 1.4
+
+    // This a comment. It is not executed
+
+    // This is also a comment.
+    // Over multiple lines
+
+    /* This is a comment.
+       Over many..
+       many..
+       manu lines..
+     */
+
+    /* This is a comment.
+
+    /* And inside it is another comment.
+
+     */
+
+     * Back to the first,
+     */
 }
