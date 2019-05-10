@@ -92,13 +92,14 @@ fun Challenge_Pair_and_Triple_1_6(args: Array<String>) {
 
  Declare a constant Pair that contains two Int values. Use this to represent a date (month, day).
  */
+    val date = Pair(5, 31)
 
 /*
  In one line, read the day and month values into two constants.
  */
-
+    println("day: ${date.second} month: ${date.first}")
 
 /*
  Now create a Triple using the month, day and year */
-
+    val triple = Triple(1983, date.first, date.second)
 }
