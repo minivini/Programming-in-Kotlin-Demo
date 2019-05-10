@@ -83,5 +83,29 @@ fun main(args: Array<String>) {
     val (x4, y4, _) = coordinates3D
     println("x4 = $x4 y4 = $y4")
 
+    println("*****************")
+    Challenge_Pair_and_Triple_1_6(args)
+}
 
+/**
+ *
+ */
+fun Challenge_Pair_and_Triple_1_6(args: Array<String>) {
+/* Pairs and Triples
+
+ Declare a constant Pair that contains two Int values. Use this to represent a date (month, day).
+ */
+    val date = Pair(8, 16)
+    print("date = $date")
+
+/*
+ In one line, read the day and month values into two constants.
+ */
+    val (month, day) = date
+    println("month = $month day = $day")
+
+/*
+ Now create a Triple using the month, day and year */
+    val dayOfMonth = Triple(8, 12, 2018)
+    println("dayOfMonth = $dayOfMonth")
 }
